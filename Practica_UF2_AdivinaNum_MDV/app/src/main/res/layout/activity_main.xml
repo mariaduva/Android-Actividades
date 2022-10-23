@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/rlFondo">
+
+    <TextView
+        android:id="@+id/txtIntentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenes"
+        android:layout_marginStart="@dimen/margenes"
+        android:textSize="@dimen/tam_fuente"
+        android:text="@string/intentos_rest"/>
+
+    <TextView
+        android:id="@+id/txtPista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margenes"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/tam_fuente"
+        android:text="@string/adivina"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margenes"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginTop="180dp"
+        android:layout_below="@id/txtPista"
+        android:gravity="center"
+        android:inputType="number"
+        android:textSize="@dimen/tam_fuente"
+        />
+
+    <Button
+        android:id="@+id/btnComparacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNum"
+        android:layout_marginRight="@dimen/margenes"
+        android:layout_marginLeft="@dimen/margenes"
+        android:text="@string/btnComprobacion"
+        android:textSize="@dimen/tam_fuente"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+
+</RelativeLayout>

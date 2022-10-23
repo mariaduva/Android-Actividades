@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Adivina el número</string>
+    <string name="intentos_rest">Intentos restantes %1$d:</string>
+    <string name="adivina">Debes adivinar el número secreto entre 1 y 100. Tienes %1$d intentos</string>
+    <string name="btnComprobacion">Probar este número</string>
+    <string name="num_invld">Debes introducir un número entre 1 y 100</string>
+    <string name="num_grnd">El número que buscas es más grande</string>
+    <string name="num_pqn">El número que buscas es más pequeño</string>
+    <string name="num_adivinado">Felicidades! Has adivinado el número</string>
+    <string name="num_no_adivinado">Has agotado tus intentos. El número era %1$d</string>
+    <string name="btnComprobacionDesc">Probar este número</string>
+    <string name="fin_juego">Fin del juego</string>
+</resources>
